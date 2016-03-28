@@ -5,7 +5,9 @@
 * 用户可以选择一个图片并提交表单，随后文件将被上传到http://domain/upload，该页面完成上传后会把图片显示在页面上。
 
 # 使用方法
-* npm i
-* node index.js
+```bash
+ npm i
+ node index.js
+```
 然后输入localhost:8888端口即可访问
 参考文档： [点击这里]('http://www.nodebeginner.org/index-zh-cn.html')
