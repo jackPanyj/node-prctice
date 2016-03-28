@@ -1,3 +1,4 @@
+// 路由
 function route (handle, pathname, res, req) {
   if (typeof handle[pathname] === 'function') {
     handle[pathname](res, req)

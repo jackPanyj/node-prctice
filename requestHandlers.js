@@ -1,4 +1,4 @@
-var queryString = require('querystring')
+// 请求处理程序
 var fs = require('fs')
 var formidable = require('formidable')
 function start (res) {
@@ -19,6 +19,7 @@ function start (res) {
   res.write(body)
   res.end()
 }
+
 function upload (res, req) {
   var form = new formidable.IncomingForm()
   form.parse(req, function (err, fields, files) {
