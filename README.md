@@ -10,4 +10,4 @@
  node index.js
 ```
 然后输入localhost:8888端口即可访问
-参考文档： [点击这里]('http://www.nodebeginner.org/index-zh-cn.html')
+参考文档： [点击这里](http://www.nodebeginner.org/index-zh-cn.html)
